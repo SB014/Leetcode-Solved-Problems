@@ -16,8 +16,9 @@ public:
                 y--;
             }
         }
-        int dist=hypot(x, y);
-        if(dist) return false;
-        else return true;
+        // int dist=hypot(x, y);
+        // if(dist) return false;
+        // else return true;
+        return (x==0 && y==0);
     }
 };
